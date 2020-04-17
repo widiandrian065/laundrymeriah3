@@ -1,0 +1,99 @@
+body{
+    background-color:silver;
+}
+h1{
+    background-color:silver ;
+    color:black;
+}
+p{
+   color:black;
+   text-align: justify;
+   font-style: sans-serif; 
+   margin:10px 5px 0px 5px;
+}
+
+.nav{
+    margin:auto;
+    text-align: center;
+    width:100%;
+    font-family: arial;
+}
+.nav ul{
+    background: orangered;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width:100%;
+}
+.nav ul li{
+    float:left;
+}
+
+.nav ul li:hover{
+    background: white;
+}
+
+.nav ul li:hover a{
+    color:black;
+}
+
+.nav ul li a{
+    display:block;
+    padding:10px;
+    color:aquamarine;
+    text-decoration: none;
+}
+
+.wrap{
+    background: silver;
+    width: 100%;
+    margin:2px auto;
+}
+
+.wrap.header{
+    background: rgb(9, 255, 0);
+    /*height:50px;*/
+    padding:2% 10px;
+}
+
+.wrap .nav{
+    background: steelblue;
+}
+
+.wrap .nav ul{
+    padding:2px;
+    margin:0;
+    background:steelblue;
+    overflow: hidden;
+}
+
+.wrap .nav ul li{
+    float:left;
+    list-style-type:none;
+    padding:10px;
+}
+
+.side{
+    height:450px;
+}
+
+.wrap .side .sidebar{
+    background:silver;
+    float:left;
+    width:20%;
+    height:100%;
+}
+
+.wrap .side .content{
+    background: white;
+    float:left;
+    height: 100%;
+    width:80%;
+}
+
+.wrap .footer{
+    background-color:steelblue;
+    width:100%;
+    padding:10px;
+}
